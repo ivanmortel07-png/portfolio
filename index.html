@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IT Portfolio of Ivan Angelo T. Mortel - 3rd Year BSIT Student">
+  <title>Ivan Angelo T. Mortel | Portfolio</title>
+
+  <!-- Google Fonts (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">Ivan<span>.</span></a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hello">Hi there! 👋 I'm</p>
+        <h1>Ivan Angelo T. Mortel</h1>
+        <h3>BSIT Student &amp; <span class="typing" id="typing">Aspiring Web Developer</span><span class="cursor">|</span></h3>
+        <p class="hero-desc">
+          A 3rd year BS Information Technology student who loves turning ideas into simple
+          and useful websites. Currently learning more about front-end development and UI/UX design.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <div class="img-circle">
+          <img src="images/profile.webp" alt="Photo of Ivan Angelo T. Mortel">
+        </div>
+        <div class="badge">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>3rd Year BSIT</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm <strong>Ivan Angelo T. Mortel</strong>, a 3rd year Bachelor of Science in
+            Information Technology student. I got into IT because I was always curious about how
+            websites and apps work, and now I get to build my own (and debug them at 2AM).
+          </p>
+          <p>
+            Most of my experience comes from school projects where I worked on both the front-end
+            and the database side. I like designing my layouts in Figma first before coding them,
+            which is actually how I made this portfolio. Right now I'm improving my JavaScript skills
+            and learning PHP and MySQL more deeply so I can build complete web systems.
+          </p>
+          <p>
+            When I'm not coding, I'm usually watching tech videos, playing games with friends,
+            or trying out new UI ideas.
+          </p>
+        </div>
+
+        <div class="about-info">
+          <div class="info-row"><span class="label">Name:</span> <span>Ivan Angelo T. Mortel</span></div>
+          <div class="info-row"><span class="label">Course:</span> <span>BS Information Technology</span></div>
+          <div class="info-row"><span class="label">Year Level:</span> <span>3rd Year</span></div>
+          <div class="info-row"><span class="label">Email:</span> <span>ivanmortel07@gmail.com</span></div>
+          <div class="info-row"><span class="label">Interests:</span> <span>Web Development, UI/UX Design</span></div>
+          <a href="#contact" class="btn btn-primary btn-small">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+        <p class="subtitle">Things I've learned so far in school and on my own.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- technical skills -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-code"></i> Technical Skills</h3>
+
+          <div class="skill">
+            <div class="skill-info"><span>HTML</span><span>90%</span></div>
+            <div class="bar"><div class="progress" data-width="90%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>CSS</span><span>85%</span></div>
+            <div class="bar"><div class="progress" data-width="85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+            <div class="bar"><div class="progress" data-width="70%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>PHP</span><span>65%</span></div>
+            <div class="bar"><div class="progress" data-width="65%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>MySQL</span><span>70%</span></div>
+            <div class="bar"><div class="progress" data-width="70%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Java</span><span>60%</span></div>
+            <div class="bar"><div class="progress" data-width="60%"></div></div>
+          </div>
+        </div>
+
+        <!-- design skills -->
+        <div class="skill-card">
+          <h3><i class="fa-solid fa-pen-nib"></i> Design Skills</h3>
+
+          <div class="skill">
+            <div class="skill-info"><span>Figma</span><span>85%</span></div>
+            <div class="bar"><div class="progress" data-width="85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Canva</span><span>85%</span></div>
+            <div class="bar"><div class="progress" data-width="85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Wireframing &amp; Prototyping</span><span>75%</span></div>
+            <div class="bar"><div class="progress" data-width="75%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Responsive Web Design</span><span>75%</span></div>
+            <div class="bar"><div class="progress" data-width="75%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Color &amp; Typography</span><span>65%</span></div>
+            <div class="bar"><div class="progress" data-width="65%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-info"><span>Adobe Photoshop</span><span>55%</span></div>
+            <div class="bar"><div class="progress" data-width="55%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tools">
+        <h4>Tools I use:</h4>
+        <div class="tags">
+          <span class="tag">VS Code</span>
+          <span class="tag">Git &amp; GitHub</span>
+          <span class="tag">XAMPP</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">NetBeans</span>
+          <span class="tag">MS Office</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+        <p class="subtitle">Some of the projects I worked on in school.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- project 1 -->
+        <div class="project-card">
+          <img src="images/project-brgydocs.svg" alt="Screenshot of BrgyDocs admin dashboard" class="project-img">
+          <div class="project-body">
+            <h3>BrgyDocs – Barangay Document Request System</h3>
+            <p>
+              A web system where residents can request barangay clearances and certificates online
+              instead of lining up. I designed the UI in Figma and coded the request form and the
+              admin dashboard. (Group project for our Web Systems class)
+            </p>
+            <h4>Tools used:</h4>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Figma</span>
+            </div>
+            <a href="images/project-brgydocs.svg" class="project-link" target="_blank">View Screenshot <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- project 2 -->
+        <div class="project-card">
+          <img src="images/project-stockwise.svg" alt="Screenshot of StockWise inventory system" class="project-img">
+          <div class="project-body">
+            <h3>StockWise – Sari-Sari Store Inventory System</h3>
+            <p>
+              A desktop app for small sari-sari stores that keeps track of products, prices, and stock.
+              It warns the owner when an item is running low. I made the database design and the
+              add / update / delete forms.
+            </p>
+            <h4>Tools used:</h4>
+            <div class="tags">
+              <span class="tag">Java</span>
+              <span class="tag">NetBeans</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <a href="images/project-stockwise.svg" class="project-link" target="_blank">View Screenshot <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- project 3 -->
+        <div class="project-card">
+          <img src="images/project-kapeco.svg" alt="Kapé Co. coffee app UI design screens" class="project-img">
+          <div class="project-body">
+            <h3>Kapé Co. – Coffee Shop App UI Design</h3>
+            <p>
+              A mobile app UI/UX design for a local coffee shop's ordering app. I made the wireframes,
+              picked the color palette, and built a clickable high-fidelity prototype in Figma.
+            </p>
+            <h4>Tools used:</h4>
+            <div class="tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Canva</span>
+            </div>
+            <a href="images/project-kapeco.svg" class="project-link" target="_blank">View Screenshot <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Me</h2>
+        <div class="underline"></div>
+        <p class="subtitle">Have a question or want to work on a project together? Feel free to message me!</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's talk!</h3>
+          <p>I'm currently open for OJT / internship opportunities and small freelance projects.</p>
+
+          <a href="mailto:ivanmortel07@gmail.com" class="info-item">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="info-label">Email</span>
+              <span class="info-value">ivanmortel07@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://github.com/ivanmortel07-png" class="info-item" target="_blank">
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <span class="info-label">GitHub</span>
+              <span class="info-value">github.com/ivanmortel07-png</span>
+            </div>
+          </a>
+          <div class="info-item">
+            <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+              <span class="info-label">Course</span>
+              <span class="info-value">BS Information Technology – 3rd Year</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <input type="text" id="subject" placeholder="Subject">
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Ivan Angelo T. Mortel. All rights reserved.</p>
+    <p class="small">Designed in Figma, built with HTML, CSS &amp; JavaScript ☕</p>
+  </footer>
+
+  <!-- back to top button -->
+  <a href="#home" class="to-top" id="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <!-- image popup (for project screenshots) -->
+  <div class="modal" id="modal">
+    <span class="close" id="close-modal">&times;</span>
+    <img id="modal-img" src="" alt="Project screenshot">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

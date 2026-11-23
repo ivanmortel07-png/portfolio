@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="Poppins, Segoe UI, Arial, sans-serif">
+  <!-- browser bar -->
+  <rect x="0" y="0" width="800" height="500" fill="#f3f4f6"/>
+  <rect x="0" y="0" width="800" height="36" fill="#e5e7eb"/>
+  <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+  <circle cx="36" cy="18" r="6" fill="#f59e0b"/>
+  <circle cx="54" cy="18" r="6" fill="#10b981"/>
+  <rect x="80" y="9" width="420" height="18" rx="9" fill="#ffffff"/>
+  <text x="94" y="22" font-size="10" fill="#6b7280">localhost/brgydocs/admin/dashboard.php</text>
+  <!-- sidebar -->
+  <rect x="0" y="36" width="170" height="464" fill="#1e3a8a"/>
+  <text x="20" y="74" font-size="17" font-weight="700" fill="#ffffff">BrgyDocs</text>
+  <text x="20" y="90" font-size="9" fill="#93c5fd">Admin Panel</text>
+  <rect x="10" y="108" width="150" height="28" rx="6" fill="#2b4cb3"/>
+  <text x="22" y="126" font-size="12" fill="#ffffff">Dashboard</text>
+  <text x="22" y="162" font-size="12" fill="#c7d2fe">Requests</text>
+  <text x="22" y="194" font-size="12" fill="#c7d2fe">Residents</text>
+  <text x="22" y="226" font-size="12" fill="#c7d2fe">Documents</text>
+  <text x="22" y="258" font-size="12" fill="#c7d2fe">Reports</text>
+  <text x="22" y="470" font-size="12" fill="#c7d2fe">Logout</text>
+  <!-- header -->
+  <text x="190" y="72" font-size="18" font-weight="700" fill="#111827">Dashboard</text>
+  <text x="190" y="90" font-size="11" fill="#6b7280">Welcome back, Admin!</text>
+  <!-- stat cards -->
+  <rect x="190" y="105" width="140" height="64" rx="8" fill="#ffffff"/>
+  <text x="204" y="127" font-size="10" fill="#6b7280">Pending</text>
+  <text x="204" y="154" font-size="22" font-weight="700" fill="#f59e0b">12</text>
+  <rect x="340" y="105" width="140" height="64" rx="8" fill="#ffffff"/>
+  <text x="354" y="127" font-size="10" fill="#6b7280">Approved</text>
+  <text x="354" y="154" font-size="22" font-weight="700" fill="#10b981">48</text>
+  <rect x="490" y="105" width="140" height="64" rx="8" fill="#ffffff"/>
+  <text x="504" y="127" font-size="10" fill="#6b7280">Released</text>
+  <text x="504" y="154" font-size="22" font-weight="700" fill="#3b82f6">35</text>
+  <rect x="640" y="105" width="140" height="64" rx="8" fill="#ffffff"/>
+  <text x="654" y="127" font-size="10" fill="#6b7280">Residents</text>
+  <text x="654" y="154" font-size="22" font-weight="700" fill="#8b5cf6">1,204</text>
+  <!-- table -->
+  <rect x="190" y="185" width="590" height="295" rx="8" fill="#ffffff"/>
+  <text x="205" y="210" font-size="13" font-weight="700" fill="#111827">Recent Requests</text>
+  <rect x="190" y="222" width="590" height="26" fill="#f9fafb"/>
+  <text x="205" y="239" font-size="10" font-weight="600" fill="#6b7280">REQ #</text>
+  <text x="265" y="239" font-size="10" font-weight="600" fill="#6b7280">RESIDENT</text>
+  <text x="385" y="239" font-size="10" font-weight="600" fill="#6b7280">DOCUMENT</text>
+  <text x="545" y="239" font-size="10" font-weight="600" fill="#6b7280">DATE</text>
+  <text x="680" y="239" font-size="10" font-weight="600" fill="#6b7280">STATUS</text>
+
+  <text x="205" y="273" font-size="11" fill="#111827">BR-0231</text>
+  <text x="265" y="273" font-size="11" fill="#111827">Juan Dela Cruz</text>
+  <text x="385" y="273" font-size="11" fill="#111827">Barangay Clearance</text>
+  <text x="545" y="273" font-size="11" fill="#6b7280">10/14/2026</text>
+  <rect x="676" y="261" width="64" height="18" rx="9" fill="#fef3c7"/>
+  <text x="708" y="274" font-size="9" fill="#b45309" text-anchor="middle">Pending</text>
+  <line x1="190" y1="288" x2="780" y2="288" stroke="#f1f1f4"/>
+
+  <text x="205" y="308" font-size="11" fill="#111827">BR-0230</text>
+  <text x="265" y="308" font-size="11" fill="#111827">Maria Santos</text>
+  <text x="385" y="308" font-size="11" fill="#111827">Cert. of Indigency</text>
+  <text x="545" y="308" font-size="11" fill="#6b7280">10/14/2026</text>
+  <rect x="676" y="296" width="64" height="18" rx="9" fill="#d1fae5"/>
+  <text x="708" y="309" font-size="9" fill="#047857" text-anchor="middle">Approved</text>
+  <line x1="190" y1="323" x2="780" y2="323" stroke="#f1f1f4"/>
+
+  <text x="205" y="343" font-size="11" fill="#111827">BR-0229</text>
+  <text x="265" y="343" font-size="11" fill="#111827">Pedro Reyes</text>
+  <text x="385" y="343" font-size="11" fill="#111827">Barangay ID</text>
+  <text x="545" y="343" font-size="11" fill="#6b7280">10/13/2026</text>
+  <rect x="676" y="331" width="64" height="18" rx="9" fill="#dbeafe"/>
+  <text x="708" y="344" font-size="9" fill="#1d4ed8" text-anchor="middle">Released</text>
+  <line x1="190" y1="358" x2="780" y2="358" stroke="#f1f1f4"/>
+
+  <text x="205" y="378" font-size="11" fill="#111827">BR-0228</text>
+  <text x="265" y="378" font-size="11" fill="#111827">Ana Villanueva</text>
+  <text x="385" y="378" font-size="11" fill="#111827">Cert. of Residency</text>
+  <text x="545" y="378" font-size="11" fill="#6b7280">10/12/2026</text>
+  <rect x="676" y="366" width="64" height="18" rx="9" fill="#d1fae5"/>
+  <text x="708" y="379" font-size="9" fill="#047857" text-anchor="middle">Approved</text>
+  <line x1="190" y1="393" x2="780" y2="393" stroke="#f1f1f4"/>
+
+  <text x="205" y="413" font-size="11" fill="#111827">BR-0227</text>
+  <text x="265" y="413" font-size="11" fill="#111827">Mark Bautista</text>
+  <text x="385" y="413" font-size="11" fill="#111827">Business Clearance</text>
+  <text x="545" y="413" font-size="11" fill="#6b7280">10/12/2026</text>
+  <rect x="676" y="401" width="64" height="18" rx="9" fill="#fef3c7"/>
+  <text x="708" y="414" font-size="9" fill="#b45309" text-anchor="middle">Pending</text>
+  <line x1="190" y1="428" x2="780" y2="428" stroke="#f1f1f4"/>
+
+  <text x="205" y="455" font-size="10" fill="#6b7280">Showing 5 of 95 requests</text>
+  <rect x="700" y="442" width="64" height="22" rx="5" fill="#1e3a8a"/>
+  <text x="732" y="457" font-size="10" fill="#ffffff" text-anchor="middle">View All</text>
+</svg>

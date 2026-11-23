@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="Poppins, Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="500" fill="#f3e9dc"/>
+  <circle cx="120" cy="420" r="160" fill="#e8d5bf"/>
+  <!-- left text -->
+  <text x="48" y="190" font-size="40" font-weight="700" fill="#5b3a29">Kapé Co.</text>
+  <text x="50" y="222" font-size="15" fill="#7c5a45">Coffee Ordering App</text>
+  <rect x="50" y="242" width="150" height="28" rx="14" fill="#5b3a29"/>
+  <text x="125" y="261" font-size="11" fill="#ffffff" text-anchor="middle">UI/UX Design - Figma</text>
+
+  <!-- phone 1: home -->
+  <rect x="300" y="30" width="220" height="440" rx="30" fill="#1f1f1f"/>
+  <rect x="310" y="40" width="200" height="420" rx="22" fill="#fffaf4"/>
+  <rect x="380" y="46" width="60" height="10" rx="5" fill="#1f1f1f"/>
+  <text x="326" y="86" font-size="10" fill="#9a7b66">Good morning!</text>
+  <text x="326" y="106" font-size="15" font-weight="700" fill="#3b2418">What's your</text>
+  <text x="326" y="124" font-size="15" font-weight="700" fill="#3b2418">coffee today?</text>
+  <rect x="326" y="138" width="168" height="28" rx="14" fill="#f1e6da"/>
+  <text x="342" y="156" font-size="10" fill="#9a7b66">Search coffee...</text>
+  <rect x="326" y="178" width="48" height="22" rx="11" fill="#5b3a29"/>
+  <text x="350" y="193" font-size="10" fill="#ffffff" text-anchor="middle">Hot</text>
+  <rect x="380" y="178" width="52" height="22" rx="11" fill="#f1e6da"/>
+  <text x="406" y="193" font-size="10" fill="#5b3a29" text-anchor="middle">Iced</text>
+  <rect x="438" y="178" width="58" height="22" rx="11" fill="#f1e6da"/>
+  <text x="467" y="193" font-size="10" fill="#5b3a29" text-anchor="middle">Frappe</text>
+  <!-- card 1 -->
+  <rect x="326" y="214" width="80" height="128" rx="14" fill="#ffffff" stroke="#efe3d6"/>
+  <circle cx="366" cy="252" r="24" fill="#c08552"/>
+  <circle cx="366" cy="252" r="16" fill="#8b5a3c"/>
+  <text x="334" y="296" font-size="9" font-weight="700" fill="#3b2418">Caramel</text>
+  <text x="334" y="308" font-size="9" font-weight="700" fill="#3b2418">Macchiato</text>
+  <text x="334" y="330" font-size="9" fill="#c08552">PHP 145</text>
+  <!-- card 2 -->
+  <rect x="414" y="214" width="80" height="128" rx="14" fill="#ffffff" stroke="#efe3d6"/>
+  <circle cx="454" cy="252" r="24" fill="#d9b48f"/>
+  <circle cx="454" cy="252" r="16" fill="#a0704d"/>
+  <text x="422" y="296" font-size="9" font-weight="700" fill="#3b2418">Spanish</text>
+  <text x="422" y="308" font-size="9" font-weight="700" fill="#3b2418">Latte</text>
+  <text x="422" y="330" font-size="9" fill="#c08552">PHP 135</text>
+  <!-- promo -->
+  <rect x="326" y="354" width="168" height="54" rx="12" fill="#5b3a29"/>
+  <text x="340" y="376" font-size="10" font-weight="700" fill="#ffffff">Buy 1 Take 1</text>
+  <text x="340" y="392" font-size="9" fill="#e8d5bf">Every Friday, 2PM - 5PM</text>
+  <!-- bottom nav -->
+  <rect x="310" y="420" width="200" height="40" fill="#ffffff"/>
+  <circle cx="345" cy="440" r="5" fill="#5b3a29"/>
+  <circle cx="390" cy="440" r="5" fill="#d6c3b0"/>
+  <circle cx="435" cy="440" r="5" fill="#d6c3b0"/>
+  <circle cx="478" cy="440" r="5" fill="#d6c3b0"/>
+
+  <!-- phone 2: details -->
+  <rect x="550" y="30" width="220" height="440" rx="30" fill="#1f1f1f"/>
+  <rect x="560" y="40" width="200" height="420" rx="22" fill="#fffaf4"/>
+  <rect x="630" y="46" width="60" height="10" rx="5" fill="#1f1f1f"/>
+  <rect x="560" y="40" width="200" height="190" rx="22" fill="#e8d5bf"/>
+  <rect x="560" y="200" width="200" height="30" fill="#e8d5bf"/>
+  <text x="576" y="84" font-size="14" fill="#5b3a29">‹</text>
+  <circle cx="660" cy="140" r="58" fill="#d9b48f"/>
+  <circle cx="660" cy="140" r="42" fill="#a0704d"/>
+  <circle cx="648" cy="128" r="10" fill="#c79a74"/>
+  <text x="576" y="258" font-size="16" font-weight="700" fill="#3b2418">Spanish Latte</text>
+  <text x="576" y="276" font-size="9" fill="#9a7b66">Espresso, milk, and condensed milk</text>
+  <text x="576" y="288" font-size="9" fill="#9a7b66">for that sweet and creamy taste.</text>
+  <text x="576" y="314" font-size="10" font-weight="700" fill="#3b2418">Size</text>
+  <rect x="576" y="322" width="50" height="26" rx="8" fill="#f1e6da"/>
+  <text x="601" y="339" font-size="10" fill="#5b3a29" text-anchor="middle">S</text>
+  <rect x="635" y="322" width="50" height="26" rx="8" fill="#5b3a29"/>
+  <text x="660" y="339" font-size="10" fill="#ffffff" text-anchor="middle">M</text>
+  <rect x="694" y="322" width="50" height="26" rx="8" fill="#f1e6da"/>
+  <text x="719" y="339" font-size="10" fill="#5b3a29" text-anchor="middle">L</text>
+  <text x="576" y="374" font-size="10" fill="#9a7b66">Price</text>
+  <text x="576" y="392" font-size="15" font-weight="700" fill="#c08552">PHP 135</text>
+  <rect x="576" y="408" width="168" height="34" rx="17" fill="#5b3a29"/>
+  <text x="660" y="429" font-size="11" fill="#ffffff" text-anchor="middle">Add to Cart</text>
+</svg>
